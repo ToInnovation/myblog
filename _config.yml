@@ -89,4 +89,3 @@ exclude_generator:
 deploy:
   type: github
   repo: https://github.com/ToInnovation/ToInnovation.git
-  branch: gh-pages
