@@ -87,12 +87,15 @@ analytics:
 
 # 站点顶部菜单,支持子菜单
 menu:
-  Home: ''
-  About: about/
+  语言&开发: 
+    Java: java/
+  框架技术: 
+    Node.js: nodejs/ 
+  design: 
+    用户研究: user-research/
+    交互设计: interactive/
+    视觉设计: visual/  
   Archives: archives/
-  其它链接:
-    chenall: //chenall.net
-    gihtub: https://github.com/chenall/hexo-theme-chenall
 
 # ajax_widgets是否使用jquery.load动态加载widget的内容,
 # 注: 部份小工具,像标签,分类,最近文章等,这些工具的内容在所有页面都是一样的,这时它就支持动态加载
@@ -104,9 +107,9 @@ ajax_widgets: true
 # 要加载的工具在这里添加
 widgets:
   header: #顶部
+    - search
   footer: #底部
   sidebar: #侧边栏
-    - search
     - category
     - recent_posts
     - tagcloud
@@ -143,10 +146,10 @@ Beian:
 ## 使用反色的导航条(值为true时导航条的背景色是黑色)
 bs_nav_inverse: false
 
-twitter_id: chenall
+twitter_id: hades
 facebook_id:
 linkedin_id:
-github_id: chenall/almrun
+github_id: hades/hades
 
 rss: atom.xml
 
