@@ -12,7 +12,7 @@ language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://wuban.org.cn
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -88,5 +88,5 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: github
-  repo: https://github.com/ToInnovation/ToInnovation.git
-  branch: gh-pages
+  repo: https://github.com/ToInnovation/toinnovation.github.io.git
+  branch: master
