@@ -51,9 +51,9 @@ modules:
     js: http://cdn.bootcss.com/mathjax/2.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     #js: http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   uyan: #有言评论系统
-    uid: 1880458
+    uid: 1947348
   ujian: #友荐：为网站添加'猜你喜欢'功能
-    uid: 1880458
+    uid: 1947348
   swiftype: #Swiftype配置，详情访问https://swiftype.com
     key: #对应的Engine Key 在https://swiftype.com/home可以看到。
 
@@ -64,9 +64,9 @@ modules:
 #
 # 
 comments:
-    provider: duoshuo
+    provider: uyan
     show_count: true
-    short_name: hexochenall
+    short_name: hades
 
 ## 站点分析统计代码功能组件
 # 加载在站点的footer位置
@@ -107,7 +107,6 @@ ajax_widgets: true
 # 要加载的工具在这里添加
 widgets:
   header: #顶部
-    - search
   footer: #底部
   sidebar: #侧边栏
     - category
@@ -152,4 +151,6 @@ linkedin_id:
 github_id: hades/hades
 
 rss: atom.xml
+
+category: xxx
 

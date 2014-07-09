@@ -13,7 +13,7 @@ function load_random_posts(obj){
 }
 
 jQuery(document).ready(function($){
-  $('body').on(
+ /* $('body').on(
     {mouseover:function(e){
       this.myTitle = this.title || this.innerText;
       this.myHref = decodeURI(this.href);
@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
       $('#tooltip').css({"opacity":"0.8","top":(e.pageY+20)+"px","left":(e.pageX-10)+"px"}).show('fast');},
     mouseout:function(){this.title = this.myTitle;$('#tooltip').remove();},
     mousemove:function(e){$('#tooltip').css({"top":(e.pageY+20)+"px","left":(e.pageX-10)+"px"})}
-    },'a[href][href!="#"]');
+    },'a[href][href!="#"]');*/
   $('.content p:first-child').addClass("fp");
   $('.ajax_widgets').each(function(){var src=$(this).attr('data-src');if(src)$(this).load(site.BASE_URI + 'widgets/'+src+'.html');});
   $.each(_js2load,function(index,obj){loadjs(obj.src,obj.charset)});
