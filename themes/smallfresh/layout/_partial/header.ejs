@@ -27,12 +27,13 @@
       <%  }
   }%>
       </ul>
-      <form class="navbar-form navbar-left" action="//google.com/search" method="get" accept-charset="utf-8">
-        <div class="form-group">
-            <input class="form-control" id="searchbox" type="text" name="q" results="0" placeholder="<%= __('search') %>">
-            <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
-        </div>
+      <% add_module('swiftype'); %>
+      <form class="navbar-form navbar-left">
+      <div class="form-group">
+      <input type="text" id="st-search-input" class="form-control" placeholder="<%= __('search') %>" autocomplete="off" autocorrect="off" autocapitalize="off" style="outline: none;">
+      </div>
       </form>
+     
       <ul class="nav navbar-nav navbar-right">
       <% if (UserConfig.rss) { %>
         <li><a href="<%- RealPath(UserConfig.rss) %>">RSS</a></li>

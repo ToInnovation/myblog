@@ -51,11 +51,11 @@ modules:
     js: http://cdn.bootcss.com/mathjax/2.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     #js: http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   uyan: #有言评论系统
-    uid: 1947348
+    uid: 
   ujian: #友荐：为网站添加'猜你喜欢'功能
-    uid: 1947348
+    uid: 
   swiftype: #Swiftype配置，详情访问https://swiftype.com
-    key: #对应的Engine Key 在https://swiftype.com/home可以看到。
+    key: E612_VhK51ktkya66_N_
 
 ##评论功能设置,目前支持disqus和duoshuo/uyan,需要在上面的modules中进行要应的设置
 # show_count 是否显示文章的评论数量
@@ -88,14 +88,14 @@ analytics:
 # 站点顶部菜单,支持子菜单
 menu:
   语言&开发: 
-    Java: java/
+    Java: categories/java/
   框架技术: 
-    Node.js: nodejs/ 
+    Node.js: categories/nodejs/ 
   design: 
-    用户研究: user-research/
-    交互设计: interactive/
-    视觉设计: visual/  
-  Archives: archives/
+    用户研究: categories/用户研究/
+    交互设计: categories/交互设计/
+    视觉设计: categories/视觉设计/  
+  Archives: categories/archives/
 
 # ajax_widgets是否使用jquery.load动态加载widget的内容,
 # 注: 部份小工具,像标签,分类,最近文章等,这些工具的内容在所有页面都是一样的,这时它就支持动态加载
@@ -109,16 +109,14 @@ widgets:
   header: #顶部
   footer: #底部
   sidebar: #侧边栏
-    - category
     - recent_posts
     - tagcloud
     - latest_update_posts
-    - random_posts
     - sina_weiboshow
     - recent_comments
+
   before_content: # 文章内容前
   after_content:  # 文章内容后
-    - wumiiRelatedItems
     - post_footer_info
     - ujian
 
@@ -148,9 +146,7 @@ bs_nav_inverse: false
 twitter_id: hades
 facebook_id:
 linkedin_id:
-github_id: hades/hades
+github_id: hades576fra
 
 rss: atom.xml
-
-category: xxx
 
